@@ -4,11 +4,12 @@
    "main": "dist/main.js",
    "license": "MIT",
    "scripts": {
-      "start": "ts-node src/main.ts",
+      "start": "nest start --watch",
       "build": "tsc",
       "typeorm": "typeorm-ts-node-commonjs"
    },
    "dependencies": {
+      "@apollo/gateway": "^2.11.2",
       "@apollo/server": "^4",
       "@nestjs/apollo": "^13.1.0",
       "@nestjs/common": "^11.1.6",
@@ -24,11 +25,12 @@
       "typeorm": "0.3.26"
    },
    "devDependencies": {
-      "@types/node": "^22.13.10",
-      "ts-node": "^10.9.2",
-      "typescript": "^5.8.2",
       "@types/body-parser": "^1.19.6",
       "@types/express": "^4",
-      "typeorm-ts-node-commonjs": "^0.3.20"
+      "@types/node": "^22.13.10",
+      "ts-morph": "^26.0.0",
+      "ts-node": "^10.9.2",
+      "typeorm-ts-node-commonjs": "^0.3.20",
+      "typescript": "^5.8.2"
    }
 }
