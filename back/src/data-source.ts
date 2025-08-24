@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { DataSource } from 'typeorm';
-import { Coin } from './entities/coin.entity';
+import { Coin } from './entities/Coin.entity';
 
 export default new DataSource({
   type: 'postgres',

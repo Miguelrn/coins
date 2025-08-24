@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { HelloResolver } from './resolvers/hello.resolver';
+import { CoinResolver } from './resolvers/coin.resolver';
 
 @Module({
-  providers: [HelloResolver],
+  providers: [CoinResolver],
 })
 export class GraphqlModule {}

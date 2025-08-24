@@ -3,7 +3,7 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { GraphqlModule } from './graphql/graphql.module';
-import { Coin } from './entities/coin.entity';
+import { Coin } from './entities/Coin.entity';
 import 'dotenv/config';
 
 @Module({
